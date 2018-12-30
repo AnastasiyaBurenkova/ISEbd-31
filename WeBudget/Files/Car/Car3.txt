@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<Car xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Id>3</Id>
+  <Day>8</Day>
+  <Month>9</Month>
+  <Sum>88</Sum>
+  <Comment>лоол</Comment>
+  <UserId>0</UserId>
+</Car>

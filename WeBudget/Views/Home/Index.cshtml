@@ -1,0 +1,120 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+<html>
+<head>
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+    <title>Crossroad</title>
+    <link rel="stylesheet" href="~/Content/styles.css" type="text/css" />
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Oswald:400,300" type="text/css" />
+
+    <title>Выравнивание фотографии по центру</title>
+</head>
+<body>
+    <p class="fig">
+        <img src="~/img/CY2NYGSv.jpg"
+             width="1263" height="320" alt="Фотография">
+    </p>
+
+    <style>
+        .fig {
+            text-align: center; /* Выравнивание по центру */
+        }
+
+
+        .center {
+            width: 700px; /* Ширина элемента в пикселах */
+            padding: 10px; /* Поля вокруг текста */
+            margin: auto; /* Выравниваем по центру */
+        }
+    </style>
+
+
+
+    <div class="center">
+        <nav>
+            <ul class="top-menu">
+                <li class="active">ГЛАВНАЯ</li>
+                <li><a href="~/Home/About">О НАС</a></li>
+                <li><a href="~/Home/Contact">КОНТАКТЫ</a></li>
+                <li>@Html.ActionLink("РЕГИСТРАЦИЯ", "CreateUser", "User")</li>
+            </ul>
+        </nav>
+    </div>
+
+
+
+    <div class="center">
+        <div id="heading">
+            <h1> Автосервис "Crossroad"</h1>
+        </div>
+    </div>
+
+
+
+
+    <aside>
+        <nav>
+            <ul class="aside-menu">
+                <li><a href="~/Home/Table">ЦЕНЫ</a></li>
+                <li><a href="~/Home/Cari">УСЛУГИ</a></li>
+               
+            </ul>
+        </nav>
+    </aside>
+
+
+    <section>
+        <blockquote>
+            <p>
+                Ремонт любой сложности.
+            </p>
+            <cite>Широкий ассортимент автозапчастей в наличии.</cite>
+        </blockquote>
+    </section>
+
+
+    <div class="center">
+        <h1>Наши преимущества</h1>
+
+        <h2>Доступные цены</h2>
+        <img src="~/img/icon (3).png"
+             width="250" height="250" alt="Фотография">
+
+        <h2>Опытные специалисты</h2>
+        <img src="~/img/icon (1).png"
+             width="250" height="250" alt="Фотография">
+        <h2>Работаем оперативно</h2>
+        <img src="~/img/icon (17).png"
+             width="250" height="250" alt="Фотография">
+        <h2>Гарантия качества</h2>
+        <img src="~/img/icon (34).png"
+             width="250" height="250" alt="Фотография">
+        <h2>Работаем 7 дней в неделю</h2>
+        <img src="~/img/icon (11).png"
+             width="250" height="250" alt="Фотография">
+    </div>
+
+    <footer>
+        <div id="footer">
+            <div id="tw">
+                <h3>16-09-2018</h3>
+                <p>
+                    Автосервис "Crossroad"
+                </p>
+            </div>
+
+            <div id="sitemap">
+                <h3>О НАС</h3>
+                <div>
+                    <a href="Contact">КОНТАКТЫ</a>
+                    <a href="About">О НАС</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
+
