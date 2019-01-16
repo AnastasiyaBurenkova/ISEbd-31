@@ -1,0 +1,107 @@
+﻿
+@{
+    ViewBag.Title = "Table";
+}
+
+
+
+<head>
+	<meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+	<title>MуBudget</title>
+	<link rel="stylesheet" href="~/Content/styles.css" type="text/css" />
+	<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Oswald:400,300" type="text/css" />
+	@Styles.Render("~/Content/css")
+	@Scripts.Render("~/bundles/jquery")
+	@Scripts.Render("~/bundles/bootstrap")
+	<title>Выравнивание фотографии по центру</title>
+</head>
+
+
+
+
+
+<style>
+    .fig {
+        text-align: center; /* Выравнивание по центру */
+    }
+
+
+    .center {
+        width: 700px; /* Ширина элемента в пикселах */
+        padding: 10px 250px;
+        /* Поля вокруг текста */
+        margin: 0; /* Выравниваем по центру */
+    }
+</style>
+
+
+
+
+<div class="container">
+    <div id="heading">
+        <h1> Цены</h1>
+    </div>
+</div>
+
+
+
+
+
+
+
+<section class="container">
+    <blockquote>
+        <p>
+            Ремонт любой сложности.
+        </p>
+        <cite>Широкий ассортимент автозапчастей в наличии.</cite>
+    </blockquote>
+</section>
+
+
+<div class="container">
+    <h2>Ремонт. 360-720 руб.</h2>
+    <p> Выбор применения той или иной услуги должен назначаться специалистом по результатам осмотра.</p>
+    <li>Сварочные работы</li>
+    <li>Слесарная работа 1 шт (0,5 часа)</li>
+    <li>Замена тормозного шланга</li>
+    <h2>
+        Техническое обслуживание. 420-660 руб.
+    </h2>
+    <p>Указана базовая стоимость.Категории присваиваются по внутренней классификации автотехцентра, которая может отличаться от классификации производителей автомобилей.</p>
+    <li> Замена масла в ДВС</li>
+    <li>Диагностика</li>
+    <li>Замена свечей</li>
+    <li>Регулировка света фар</li>
+</div>
+
+<p class="fig">
+    <img src="~/img/be-the-first-bg.jpg"
+         width="680" height="320" alt="Фотография">
+</p>
+
+
+
+<div class="container">
+    <h2> Автомойка. 150-550 руб.</h2>
+    <p>На все услуги распространяется скидка по карте постоянного клиента. Предъявление карты обязательно.</p>
+    <li>Техническая мойка</li>
+    <li>Экспресс мойка</li>
+    <li>Нано мойка</li>
+</div>
+
+
+
+<p class="fig">
+    <img src="~/img/HDi55Rn7XTc.jpg"
+         width="680" height="720" alt="Фотография">
+</p>
+
+
+
+
+
+
+
+
